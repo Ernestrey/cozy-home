@@ -1,17 +1,80 @@
-h1 {
-    font-family: "GeorgiaRegular", sans-serif;
+@font-face {
+    font-family: "GeorgiaRegular"; 
+    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "GeorgiaRegular"; 
+    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
 }
 
-@font-face {
-    font-family: "GeorgiaRegular"; 
-    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
-    font-style: normal; 
-    font-weight: normal; 
-} 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-@font-face {
-    font-family: "GeorgiaRegular"; 
-    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
-    font-style: normal; 
-    font-weight: normal; 
-} 
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+    font-family: "GeorgiaRegular", sans-serif;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration-skip-ink: auto;
+  }
+  
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section > *{
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+}
