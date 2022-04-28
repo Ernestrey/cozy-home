@@ -1,0 +1,17 @@
+h1 {
+    font-family: "GeorgiaRegular", sans-serif;
+}
+
+@font-face {
+    font-family: "GeorgiaRegular"; 
+    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "GeorgiaRegular"; 
+    src: url("../fonts/georgia/georgia-regular.ttf") format("ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
