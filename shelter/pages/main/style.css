@@ -78,7 +78,9 @@ select {
 
 .header_container {
     background-image: url(/assets/images/start-screen-background.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover; /* покрывает весь элемент*/
+    background-attachment: fixed; /*убеждаемся, что весь эелемент покрыт*/
 }
 
 .wrapper,
@@ -113,14 +115,11 @@ header {
     margin: auto 0px;
 }
 
-.navbar_list {
-    display: flex;
-}
-
 .navbar_list_item {
     flex-basis: auto;
     flex-grow: 1;
     padding-left: 35px;
+    float:right;
 }
 
 .navbar_link {
